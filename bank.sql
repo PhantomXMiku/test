@@ -1,5 +1,5 @@
 create table bank (
-	account_number INT NOT NULL PRIMARY KEY,
+	account_number BIGINT NOT NULL PRIMARY KEY,
 	person_id BIGSERIAL NOT NULL,
 	balance VARCHAR(50) NOT NULL,
 	account_type VARCHAR(10) NOT NULL
