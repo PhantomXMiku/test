@@ -1,6 +1,6 @@
 create table film (
 	id BIGSERIAL NOT NULL PRIMARY KEY,
-	title VARCHAR(50) NOT NULL,
+	title VARCHAR NOT NULL,
 	release_year INT NOT NULL,
 	language_id VARCHAR(2) NOT NULL,
 	rental_duration INT NOT NULL,
